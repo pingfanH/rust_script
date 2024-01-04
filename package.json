@@ -1,0 +1,15 @@
+{
+  "name": "rust-script",
+  "version": "0.0.1",
+  "description": "rust-script",
+  "main": "main.ts",
+  "scripts": {
+    "test": "dev"
+  },
+  "keywords": [
+    "rust",
+    "typescript"
+  ],
+  "author": "pingfanh",
+  "license": "ISC"
+}
