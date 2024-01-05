@@ -1,15 +1,19 @@
 {
-  "name": "rust-script",
-  "version": "0.0.1",
-  "description": "rust-script",
+  "name": "@pingfanh/rust_script",
+  "version": "0.0.2",
+  "description": "Make ts writing method as comfortable as rust!",
   "main": "main.ts",
   "scripts": {
-    "test": "dev"
+    "dev": "ts-node main.ts"
   },
   "keywords": [
     "rust",
     "typescript"
   ],
   "author": "pingfanh",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pingfanH/rust_script.git"
+  }
 }

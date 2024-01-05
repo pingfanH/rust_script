@@ -11,7 +11,18 @@ function test_result(value:String[],index:number):Result<String,Error>{
 }
 
 let vec=["java","javascript","rust","c"];
-let index:i32=2;
+let index:i32=6;
 let result:Result<String,Error>=test_result(vec,index);
-let test_string=format("{}-{}-{}","hello","from",result.unwrap());
+let str=result.match({
+    Ok: (v:String)=>{
+       println(v);
+        return v;
+    },
+    Err: (e)=> {
+        println(e);
+        return "other-lang"
+    }
+})
+
+let test_string=format("{}-{}-{}","hello","from",str);
 println(test_string)

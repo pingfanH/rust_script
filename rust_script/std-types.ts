@@ -8,3 +8,6 @@ export type i8=number
 export type i16=number
 export type i32=number
 export type i64=bigint
+
+export type bool=boolean
+export type str =string
