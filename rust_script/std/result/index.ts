@@ -1,5 +1,5 @@
-import { println } from "./std";
-import { bool } from "./std-types";
+import { println } from "../fn";
+import { bool } from "../type";
 
 /** 
 *Ok Result
@@ -76,10 +76,9 @@ export class Err<E>{
     match<T>(fns:{
         Ok:(v:T)=>T,
         Err:(e:E)=>T
-    })//:T
+    }):T
     {
         return fns.Err(this._error);
-       // return fns.Ok(this._value)
     }
 }
 /** 

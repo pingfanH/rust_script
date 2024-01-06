@@ -1,6 +1,6 @@
 {
   "name": "@pingfanh/rust_script",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Make ts writing method as comfortable as rust!",
   "main": "main.ts",
   "scripts": {
